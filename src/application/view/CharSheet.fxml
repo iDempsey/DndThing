@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.media.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.CharSheetController">
+   <children>
+      <Label layoutX="25.0" layoutY="14.0" prefHeight="50.0" prefWidth="200.0" text="Character Sheet">
+         <font>
+            <Font name="Baskerville Old Face" size="29.0" />
+         </font>
+      </Label>
+      <Button fx:id="continueMain" layoutX="403.0" layoutY="377.0" mnemonicParsing="false" onAction="#handle" prefHeight="36.0" prefWidth="36.0" text="-&gt;" textFill="#141414" AnchorPane.leftAnchor="403.0" AnchorPane.rightAnchor="61.0" AnchorPane.topAnchor="377.0" />
+      <TextArea fx:id="discription" layoutX="241.0" layoutY="14.0" prefHeight="81.0" prefWidth="236.0" />
+      <TextField fx:id="strength" layoutX="77.0" layoutY="90.0" prefHeight="43.0" prefWidth="65.0" />
+      <TextArea fx:id="dexterity" layoutX="77.0" layoutY="142.0" prefHeight="43.0" prefWidth="65.0" />
+      <TextArea fx:id="constitution" layoutX="77.0" layoutY="196.0" prefHeight="43.0" prefWidth="65.0" />
+      <TextArea fx:id="intelligence" layoutX="77.0" layoutY="250.0" prefHeight="43.0" prefWidth="65.0" />
+      <TextArea fx:id="wisdom" layoutX="77.0" layoutY="305.0" prefHeight="43.0" prefWidth="65.0" />
+      <TextArea fx:id="charisma" layoutX="77.0" layoutY="356.0" prefHeight="43.0" prefWidth="65.0" />
+      <TextArea layoutX="219.0" layoutY="111.0" prefHeight="243.0" prefWidth="220.0" />
+      <Label layoutX="23.0" layoutY="105.0" text="Strength" />
+      <Label layoutX="22.0" layoutY="157.0" text="Dexterity" />
+      <Label layoutX="15.0" layoutY="211.0" text="Constitution" />
+      <Label layoutX="16.0" layoutY="265.0" text="Intelligence" />
+      <Label layoutX="25.0" layoutY="320.0" text="Wisdom" />
+      <Label layoutX="22.0" layoutY="370.0" text="Charisma" />
+      <Label fx:id="invalidMessage" layoutX="51.0" layoutY="413.0" opacity="0.0" prefHeight="21.0" prefWidth="230.0" text="Error: all stats must be between 1-20" textFill="#ee0909">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

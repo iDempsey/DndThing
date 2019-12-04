@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.media.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.MonsterController">
+   <children>
+      <Label layoutX="195.0" layoutY="27.0" prefHeight="36.0" prefWidth="110.0" text="Monsters">
+         <font>
+            <Font name="Baskerville Old Face" size="29.0" />
+         </font>
+      </Label>
+      <Button fx:id="continueButton" layoutX="403.0" layoutY="377.0" mnemonicParsing="false" onAction="#handle" prefHeight="36.0" prefWidth="36.0" text="-&gt;" textFill="#141414" AnchorPane.leftAnchor="403.0" AnchorPane.rightAnchor="61.0" AnchorPane.topAnchor="377.0" />
+      <ScrollPane layoutX="107.0" layoutY="101.0" prefHeight="142.0" prefWidth="286.0">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="138.0" prefWidth="282.0" />
+        </content>
+      </ScrollPane>
+      <TextArea layoutX="119.0" layoutY="264.0" prefHeight="113.0" prefWidth="262.0" />
+   </children>
+</AnchorPane>

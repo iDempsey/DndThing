@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.media.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.CharController">
+   <children>
+      <Label layoutX="195.0" layoutY="27.0" prefHeight="50.0" prefWidth="200.0" text="Characters">
+         <font>
+            <Font name="Baskerville Old Face" size="29.0" />
+         </font>
+      </Label>
+      <Button fx:id="continueButton" layoutX="403.0" layoutY="377.0" mnemonicParsing="false" onAction="#handle" prefHeight="36.0" prefWidth="36.0" text="-&gt;" textFill="#141414" AnchorPane.leftAnchor="403.0" AnchorPane.rightAnchor="61.0" AnchorPane.topAnchor="377.0" />
+      <TextArea fx:id="display" layoutX="95.0" layoutY="84.0" prefHeight="265.0" prefWidth="321.0" />
+   </children>
+</AnchorPane>
