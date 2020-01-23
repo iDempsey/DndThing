@@ -24,7 +24,7 @@ import application.model.Class;
 import application.model.Feature;
 
 public class CharController implements EventHandler<ActionEvent>{
-	public Button continueButton;
+	public Button continueButton;//issa button
 	
 	
 	public GridPane grid;
